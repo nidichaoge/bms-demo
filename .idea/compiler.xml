@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="bms-demo-eureka" />
-        <module name="bms-demo-test2" />
+        <module name="bms-demo-test5" />
         <module name="bms-demo-test4" />
         <module name="bms-demo-test3" />
+        <module name="bms-demo-test2" />
         <module name="bms-demo-test" />
+        <module name="bms-demo-eureka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
       <module name="bms-demo-test2" target="1.8" />
       <module name="bms-demo-test3" target="1.8" />
       <module name="bms-demo-test4" target="1.8" />
+      <module name="bms-demo-test5" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -29,6 +31,7 @@
       <module name="bms-demo-test2" options="-parameters" />
       <module name="bms-demo-test3" options="-parameters" />
       <module name="bms-demo-test4" options="-parameters" />
+      <module name="bms-demo-test5" options="-parameters" />
     </option>
   </component>
 </project>

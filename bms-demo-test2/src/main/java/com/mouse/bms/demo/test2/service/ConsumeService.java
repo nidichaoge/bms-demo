@@ -41,7 +41,7 @@ public class ConsumeService {
     /**
      * 开启缓存
      */
-    @CacheResult(cacheKeyMethod = "defaultCache")
+//    @CacheResult(cacheKeyMethod = "defaultCache")
 //    @CacheKey 需要注解对参数上
     /**
      * 清除缓存 一般用在写的操作
