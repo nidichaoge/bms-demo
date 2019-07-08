@@ -13,6 +13,8 @@
         <option value="$PROJECT_DIR$/bms-demo-test3/pom.xml" />
         <option value="$PROJECT_DIR$/bms-demo-test4/pom.xml" />
         <option value="$PROJECT_DIR$/bms-demo-test5/pom.xml" />
+        <option value="$PROJECT_DIR$/bms-demo-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/bms-demo-config/pom.xml" />
       </list>
     </option>
   </component>

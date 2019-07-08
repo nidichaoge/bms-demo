@@ -24,6 +24,7 @@ public class BmsDemoTest2Application {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(BmsDemoTest2Application.class);
 
+    //todo hystrix监控页面
     public static void main(String[] args) {
         Instant start = Instant.now();
         SpringApplication.run(BmsDemoTest2Application.class, args);

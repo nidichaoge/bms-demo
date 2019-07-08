@@ -17,6 +17,7 @@ public class BmsDemoTest3Application {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(BmsDemoTest3Application.class);
 
+    //todo turbine监控页面
     public static void main(String[] args) {
         Instant start = Instant.now();
         SpringApplication.run(BmsDemoTest3Application.class, args);

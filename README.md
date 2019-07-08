@@ -12,5 +12,7 @@
 > turbine stream 未完成(需要rabbitmq)
 ###### bms-demo-test5
 > feign
-###### bms-demo-test6
-> 
+###### bms-demo-zuul
+> zuul
+###### bms-demo-config
+> config配置中心 config server
