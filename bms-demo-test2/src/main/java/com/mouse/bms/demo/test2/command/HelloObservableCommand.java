@@ -67,4 +67,5 @@ public class HelloObservableCommand extends HystrixObservableCommand<String> {
     public void flushKey() {
         HystrixRequestCache.getInstance(KEY, HystrixConcurrencyStrategyDefault.getInstance()).clear("");
     }
+
 }

@@ -15,7 +15,7 @@ import org.springframework.web.client.RestTemplate;
 import java.time.Duration;
 import java.time.Instant;
 
-@EnableHystrixDashboard
+@EnableHystrixDashboard // hystrix dashboard
 @EnableCircuitBreaker //hystrix
 @EnableDiscoveryClient //ribbon
 @SpringBootApplication
@@ -34,7 +34,8 @@ public class BmsDemoTest2Application {
 
     @Bean
     @LoadBalanced
-    public RestTemplate restTemplate(){
+    public RestTemplate restTemplate() {
         return new RestTemplate();
     }
+
 }

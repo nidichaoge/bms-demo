@@ -36,10 +36,12 @@ public class HelloCommand extends HystrixCommand<String> {
 
     /**
      * 开启缓存
+     *
      * @return
      */
     @Override
     protected String getCacheKey() {
         return super.getCacheKey();
     }
+
 }

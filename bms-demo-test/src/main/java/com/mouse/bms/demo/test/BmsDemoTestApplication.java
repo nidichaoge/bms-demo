@@ -22,7 +22,7 @@ public class BmsDemoTestApplication {
         SpringApplication.run(BmsDemoTestApplication.class, args);
         Instant end = Instant.now();
         Duration between = Duration.between(start, end);
-        LOGGER.info("eureka server started successfully. Take {} seconds.", between.getSeconds());
+        LOGGER.info("eureka client started successfully. Take {} seconds.", between.getSeconds());
     }
 
 }

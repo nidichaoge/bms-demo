@@ -88,4 +88,5 @@ public class ConsumeService {
     private String defaultCache() {
         return "hello";
     }
+
 }
