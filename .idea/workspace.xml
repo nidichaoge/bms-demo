@@ -1,67 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
-    <list default="true" id="43f5414b-c1e3-4027-96bd-fd5dab05c836" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/bms-demo-config/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bms-demo-config/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="adb60955-b3c3-4fc9-8f47-48b453a48d1d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/bms-demo-config/src/main/java/com/mouse/bms/demo/config/BmsDemoConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/bms-demo-config/src/main/java/com/mouse/bms/demo/config/BmsDemoConfigApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bms-demo-test6/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bms-demo-test6/src/main/resources/bootstrap.properties" afterDir="false" />
     </list>
-=======
-    <list default="true" id="43f5414b-c1e3-4027-96bd-fd5dab05c836" name="Default Changelist" comment="" />
->>>>>>> Stashed changes
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/bms-demo-eureka/target/" />
     <ignored path="$PROJECT_DIR$/bms-demo-test/target/" />
-    <ignored path="$PROJECT_DIR$/bms-demo-test2/target/" />
-    <ignored path="$PROJECT_DIR$/bms-demo-test3/target/" />
     <ignored path="$PROJECT_DIR$/bms-demo-test4/target/" />
-    <ignored path="$PROJECT_DIR$/bms-demo-test5/target/" />
+    <ignored path="$PROJECT_DIR$/bms-demo-test2/target/" />
     <ignored path="$PROJECT_DIR$/bms-demo-zuul/target/" />
     <ignored path="$PROJECT_DIR$/bms-demo-config/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <ignored path="$PROJECT_DIR$/bms-demo-test3/target/" />
+    <ignored path="$PROJECT_DIR$/bms-demo-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/bms-demo-test5/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/bms-demo-test6/target/" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-<<<<<<< Updated upstream
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bms-demo-config/src/main/java/com/mouse/bms/demo/config/BmsDemoConfigApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bms-demo-config/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/bms-demo-test6/src/main/resources/bootstrap.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+            <state relative-caret-position="75">
+              <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-=======
-    <leaf />
->>>>>>> Stashed changes
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>HystrixCommand</find>
-      <find>hystr</find>
-      <find>80</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,92 +39,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/bms-demo-eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/bms-demo-eureka/src/main/java/com/mouse/bms/demo/eureka/config/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/bms-demo-eureka/src/main/java/com/mouse/bms/demo/eureka/BmsDemoEurekaApplication.java" />
-        <option value="$PROJECT_DIR$/bms-demo-eureka/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/bms-demo-test2/src/main/java/com/mouse/bms/demo/test2/controller/ConsumeController.java" />
-        <option value="$PROJECT_DIR$/bms-demo-test2/src/main/java/com/mouse/bms/demo/test2/collapse/HelloCollapseCommand.java" />
-        <option value="$PROJECT_DIR$/bms-demo-test3/pom.xml" />
-        <option value="$PROJECT_DIR$/bms-demo-test5/pom.xml" />
-        <option value="$PROJECT_DIR$/bms-demo-test/pom.xml" />
-        <option value="$PROJECT_DIR$/bms-demo-test/src/main/java/com/mouse/bms/demo/test/BmsDemoTestApplication.java" />
-        <option value="$PROJECT_DIR$/bms-demo-test/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/bms-demo-test2/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/bms-demo-test2/pom.xml" />
-        <option value="$PROJECT_DIR$/bms-demo-test/src/main/java/com/mouse/bms/demo/test/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/bms-demo-test2/src/main/java/com/mouse/bms/demo/test2/controller/CrudController.java" />
-        <option value="$PROJECT_DIR$/bms-demo-test/src/main/java/com/mouse/bms/demo/test/dto/UserDTO.java" />
-        <option value="$PROJECT_DIR$/bms-demo-test2/src/main/java/com/mouse/bms/demo/test2/command/HelloCommand.java" />
-        <option value="$PROJECT_DIR$/bms-demo-test2/src/main/java/com/mouse/bms/demo/test2/command/HelloObservableCommand.java" />
-        <option value="$PROJECT_DIR$/bms-demo-test2/src/main/java/com/mouse/bms/demo/test2/dto/User.java" />
-        <option value="$PROJECT_DIR$/bms-demo-test2/src/main/java/com/mouse/bms/demo/test2/service/ConsumeService.java" />
-        <option value="$PROJECT_DIR$/bms-demo-test3/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/bms-demo-test4/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/bms-demo-test5/src/main/java/com/mouse/bms/demo/test5/dto/User.java" />
-        <option value="$PROJECT_DIR$/bms-demo-test5/src/main/java/com/mouse/bms/demo/test5/controller/ConsumeController.java" />
-        <option value="$PROJECT_DIR$/bms-demo-test5/src/main/java/com/mouse/bms/demo/test5/service/ConsumeServiceFallback.java" />
-        <option value="$PROJECT_DIR$/bms-demo-test5/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/bms-demo-test5/src/main/java/com/mouse/bms/demo/test5/BmsDemoTest5Application.java" />
-        <option value="$PROJECT_DIR$/bms-demo-test5/src/main/java/com/mouse/bms/demo/test5/service/ConsumeService.java" />
-        <option value="$PROJECT_DIR$/bms-demo-zuul/pom.xml" />
-        <option value="$PROJECT_DIR$/bms-demo-zuul/src/main/java/com/mouse/bms/demo/zuul/filter/AccessFilter.java" />
-        <option value="$PROJECT_DIR$/bms-demo-zuul/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/bms-demo-zuul/src/main/java/com/mouse/bms/demo/zuul/BmsDemoZuulApplication.java" />
-        <option value="$PROJECT_DIR$/bms-demo-test2/src/main/java/com/mouse/bms/demo/test2/BmsDemoTest2Application.java" />
-        <option value="$PROJECT_DIR$/bms-demo-test3/src/main/java/com/mouse/bms/demo/test3/BmsDemoTest3Application.java" />
-        <option value="$PROJECT_DIR$/bms-demo-test4/src/main/java/com/mouse/bms/demo/test4/BmsDemoTest4Application.java" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/config-repo/repository1/mouse.properties" />
+        <option value="$PROJECT_DIR$/config-repo/repository1/mouse-dev.properties" />
+        <option value="$PROJECT_DIR$/config-repo/repository1/mouse-prod.properties" />
+        <option value="$PROJECT_DIR$/config-repo/repository1/mouse-test.properties" />
+        <option value="$PROJECT_DIR$/config-repo/repository1/bms-demo-test6.properties" />
+        <option value="$PROJECT_DIR$/config-repo/repository1/bms-demo-test6-dev.properties" />
+        <option value="$PROJECT_DIR$/config-repo/repository1/bms-demo-test6-prod.properties" />
+        <option value="$PROJECT_DIR$/config-repo/repository1/bms-demo-test6-test.properties" />
         <option value="$PROJECT_DIR$/bms-demo-config/src/main/java/com/mouse/bms/demo/config/BmsDemoConfigApplication.java" />
-        <option value="$PROJECT_DIR$/bms-demo-config/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/bms-demo-test6/src/main/resources/bootstrap.properties" />
       </list>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="localRepository" value="$USER_HOME$/Documents/maven/apache-maven-3.6.1/repository" />
-        <option name="mavenHome" value="$USER_HOME$/Documents/maven/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="$USER_HOME$/Documents/maven/apache-maven-3.6.1/conf/settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="bms-demo-zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="bms-demo-zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="bms-demo-zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="bms-demo-zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-netflix-zuul:2.1.1.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -168,6 +70,103 @@
               <item name="bms-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="bms-demo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="bms-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bms-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="bms-demo-config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bms-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bms-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="bms-demo-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bms-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bms-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="bms-demo-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bms-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bms-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="bms-demo-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bms-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bms-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="bms-demo-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bms-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bms-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="bms-demo-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bms-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bms-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="bms-demo-test6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bms-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bms-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="bms-demo-test6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bms-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bms-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="bms-demo-test6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bms-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bms-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="bms-demo-test6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bms-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bms-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="bms-demo-test6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bms-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bms-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="bms-demo-test6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bms-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bms-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="config-repo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bms-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bms-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="config-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="repository1" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -177,41 +176,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8.0_211" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/config-repo/repository1" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/bms-demo-eureka/src/main/resources" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
-  </component>
-  <component name="RestServicesNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="Found 21 services " type="fcff1e1b:RestServiceStructure$RootNode" />
-        </path>
-        <path>
-          <item name="Found 21 services " type="fcff1e1b:RestServiceStructure$RootNode" />
-          <item name="bms-demo-test5" type="c588b436:RestServiceStructure$ProjectNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -225,10 +196,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BmsDemoZuulApplication">
+  <component name="RunManager" selected="Spring Boot.BmsDemoConfigApplication">
     <configuration name="BmsDemoConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="bms-demo-config" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mouse.bms.demo.config.BmsDemoConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BmsDemoEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bms-demo-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mouse.bms.demo.eureka.BmsDemoEurekaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -261,6 +239,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BmsDemoTest6Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bms-demo-test6" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mouse.bms.demo.test6.BmsDemoTest6Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BmsDemoTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bms-demo-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mouse.bms.demo.test.BmsDemoTestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BmsDemoZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="bms-demo-zuul" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mouse.bms.demo.zuul.BmsDemoZuulApplication" />
@@ -268,94 +260,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="eureka1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="bms-demo-eureka" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mouse.bms.demo.eureka.BmsDemoEurekaApplication" />
-      <option name="ACTIVE_PROFILES" value="test1" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="eureka2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="bms-demo-eureka" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mouse.bms.demo.eureka.BmsDemoEurekaApplication" />
-      <option name="ACTIVE_PROFILES" value="test2" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="bms-demo-test" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mouse.bms.demo.test.BmsDemoTestApplication" />
-      <option name="PROGRAM_PARAMETERS" value="--server.port=8084" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="bms-demo-test" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mouse.bms.demo.test.BmsDemoTestApplication" />
-      <option name="PROGRAM_PARAMETERS" value="--server.port=8083" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Spring Boot.eureka1" />
-      <item itemvalue="Spring Boot.eureka2" />
-      <item itemvalue="Spring Boot.test2" />
-      <item itemvalue="Spring Boot.test1" />
-      <item itemvalue="Spring Boot.BmsDemoTest2Application" />
-      <item itemvalue="Spring Boot.BmsDemoTest3Application" />
+      <item itemvalue="Spring Boot.BmsDemoTestApplication" />
       <item itemvalue="Spring Boot.BmsDemoTest4Application" />
-      <item itemvalue="Spring Boot.BmsDemoTest5Application" />
+      <item itemvalue="Spring Boot.BmsDemoTest2Application" />
       <item itemvalue="Spring Boot.BmsDemoZuulApplication" />
       <item itemvalue="Spring Boot.BmsDemoConfigApplication" />
+      <item itemvalue="Spring Boot.BmsDemoTest3Application" />
+      <item itemvalue="Spring Boot.BmsDemoEurekaApplication" />
+      <item itemvalue="Spring Boot.BmsDemoTest5Application" />
+      <item itemvalue="Spring Boot.BmsDemoTest6Application" />
     </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="43f5414b-c1e3-4027-96bd-fd5dab05c836" name="Default Changelist" comment="" />
-      <created>1562479623825</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1562479623825</updated>
-      <workItem from="1562479625097" duration="15186000" />
-      <workItem from="1562550226912" duration="1130000" />
-      <workItem from="1562559778426" duration="2992000" />
-      <workItem from="1562572204390" duration="6000" />
-      <workItem from="1562572219552" duration="2495000" />
-      <workItem from="1562577214104" duration="2896000" />
-<<<<<<< Updated upstream
-      <workItem from="1562583947002" duration="13436000" />
-=======
-      <workItem from="1562583947002" duration="17187000" />
-      <workItem from="1562665242840" duration="568000" />
->>>>>>> Stashed changes
-    </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< Updated upstream
-    <option name="totallyTimeSpent" value="38141000" />
+    <option name="totallyTimeSpent" value="1695000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-263" y="-1080" width="1920" height="1080" extended-state="6" />
-=======
-    <option name="totallyTimeSpent" value="42460000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
->>>>>>> Stashed changes
+    <frame x="-263" y="-1080" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27038628" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20127796" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -363,24 +292,15 @@
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-<<<<<<< Updated upstream
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4163569" />
-=======
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4154002" />
->>>>>>> Stashed changes
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4154002" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39817628" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3283767" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32826748" />
       <window_info anchor="bottom" id="Spring" order="8" />
-<<<<<<< Updated upstream
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33844188" />
-      <window_info anchor="bottom" id="Docker" order="10" weight="0.32928064" />
-=======
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33828998" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.337386" />
       <window_info anchor="bottom" id="Docker" order="10" weight="0.3283767" />
->>>>>>> Stashed changes
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Run with VisualVM" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
@@ -388,11 +308,11 @@
       <window_info anchor="bottom" id="Version Control" order="15" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="16" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="17" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="18" visible="true" weight="0.26950353" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="18" weight="0.26950353" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24964234" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.4427754" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.442492" />
       <window_info anchor="right" id="RestServices" order="4" weight="0.25239617" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
@@ -434,639 +354,80 @@
       <window_info anchor="right" id="Bean Validation" order="7" />
     </layout-to-restore>
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/bms-demo-test2/src/main/java/com/mouse/bms/demo/test2/controller/CrudController.java</url>
-          <line>61</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/bms-demo-test2/src/main/java/com/mouse/bms/demo/test2/controller/CrudController.java</url>
-          <line>48</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-<<<<<<< Updated upstream
-    <entry file="file://$PROJECT_DIR$/bms-demo-eureka/src/main/java/com/mouse/bms/demo/eureka/BmsDemoEurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="22" column="98" selection-start-line="18" selection-start-column="7" selection-end-line="22" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-test4/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/Documents/maven/apache-maven-3.6.1/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.6.RELEASE/spring-boot-autoconfigure-2.1.6.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-eureka/src/main/resources/application-test1.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-eureka/src/main/resources/application-test2.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-eureka/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Documents/maven/apache-maven-3.6.1/repository/org/springframework/cloud/spring-cloud-commons/2.1.1.RELEASE/spring-cloud-commons-2.1.1.RELEASE.jar!/org/springframework/cloud/client/discovery/EnableDiscoveryClientImportSelector.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Documents/maven/apache-maven-3.6.1/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.1.RELEASE/spring-cloud-netflix-eureka-client-2.1.1.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EnableEurekaClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Documents/maven/apache-maven-3.6.1/repository/org/springframework/cloud/spring-cloud-commons/2.1.1.RELEASE/spring-cloud-commons-2.1.1.RELEASE.jar!/org/springframework/cloud/client/discovery/EnableDiscoveryClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-=======
->>>>>>> Stashed changes
-    <entry file="jar://$USER_HOME$/Documents/maven/apache-maven-3.6.1/repository/org/springframework/cloud/spring-cloud-commons/2.1.1.RELEASE/spring-cloud-commons-2.1.1.RELEASE.jar!/org/springframework/cloud/client/SpringCloudApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-test/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Documents/maven/apache-maven-3.6.1/repository/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-test/src/main/java/com/mouse/bms/demo/test/BmsDemoTestApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-test2/src/main/java/com/mouse/bms/demo/test2/controller/ConsumeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-410">
-          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1080#1081#0" expanded="true" />
-            <element signature="e#1182#1183#0" expanded="true" />
-            <element signature="e#1316#1317#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-test2/src/main/java/com/mouse/bms/demo/test2/command/HelloCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-test2/src/main/java/com/mouse/bms/demo/test2/command/HelloObservableCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="857">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-test2/src/main/java/com/mouse/bms/demo/test2/collapse/HelloCollapseCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-test2/src/main/java/com/mouse/bms/demo/test2/dto/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-test2/src/main/java/com/mouse/bms/demo/test2/service/ConsumeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="889">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-test2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-test3/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-test3/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-test4/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-test2/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-test5/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-test/src/main/java/com/mouse/bms/demo/test/dto/UserDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-test2/src/main/java/com/mouse/bms/demo/test2/controller/CrudController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-test/src/main/java/com/mouse/bms/demo/test/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-test5/src/main/java/com/mouse/bms/demo/test5/dto/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-test5/src/main/java/com/mouse/bms/demo/test5/service/ConsumeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-test5/src/main/java/com/mouse/bms/demo/test5/service/ConsumeServiceFallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-test5/src/main/java/com/mouse/bms/demo/test5/controller/ConsumeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#962#963#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-test5/src/main/java/com/mouse/bms/demo/test5/BmsDemoTest5Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="90" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="27" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-zuul/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-test5/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="133" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="133" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Documents/maven/apache-maven-3.6.1/repository/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1.jar!/com/netflix/zuul/IZuulFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-zuul/src/main/java/com/mouse/bms/demo/zuul/filter/AccessFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Documents/maven/apache-maven-3.6.1/repository/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1.jar!/com/netflix/zuul/ZuulFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Documents/maven/apache-maven-3.6.1/repository/org/springframework/cloud/spring-cloud-netflix-zuul/2.1.1.RELEASE/spring-cloud-netflix-zuul-2.1.1.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/pre/DebugFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Documents/maven/apache-maven-3.6.1/repository/org/springframework/cloud/spring-cloud-netflix-zuul/2.1.1.RELEASE/spring-cloud-netflix-zuul-2.1.1.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/post/SendErrorFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-zuul/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-zuul/src/main/java/com/mouse/bms/demo/zuul/BmsDemoZuulApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <element signature="e#998#999#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-test2/src/main/java/com/mouse/bms/demo/test2/BmsDemoTest2Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="22" />
-          <folding>
-            <element signature="e#1450#1451#0" expanded="true" />
-            <element signature="e#1491#1492#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-test3/src/main/java/com/mouse/bms/demo/test3/BmsDemoTest3Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-zuul/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-test4/src/main/java/com/mouse/bms/demo/test4/BmsDemoTest4Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-config/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-194" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/bms-demo-test6/HELP.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" column="51" lean-forward="true" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-          </first_editor>
+          <first_editor />
           <second_editor />
         </state>
       </provider>
     </entry>
-<<<<<<< Updated upstream
-    <entry file="file://$PROJECT_DIR$/bms-demo-config/src/main/java/com/mouse/bms/demo/config/BmsDemoConfigApplication.java">
+    <entry file="file://$PROJECT_DIR$/bms-demo-test6/src/main/java/com/mouse/bms/demo/test6/BmsDemoTest6Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-=======
-    <entry file="file://$PROJECT_DIR$/config-repo/repository1/mouse-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-repo/repository1/mouse-prod.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-repo/repository1/mouse-test.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-config/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="57" lean-forward="true" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-repo/repository1/mouse.properties">
+    <entry file="file://$PROJECT_DIR$/config-repo/repository1/bms-demo-test6.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-config/src/main/java/com/mouse/bms/demo/config/BmsDemoConfigApplication.java">
+    <entry file="file://$PROJECT_DIR$/config-repo/repository1/bms-demo-test6-prod.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-          <folding>
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-test6/pom.xml">
+    <entry file="file://$PROJECT_DIR$/config-repo/repository1/bms-demo-test6-test.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207" />
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-test6/src/main/java/com/mouse/bms/demo/test6/BmsDemoTest6Application.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="1170">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-repo/repository1/bms-demo-test6-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bms-demo-config/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bms-demo-config/src/main/java/com/mouse/bms/demo/config/BmsDemoConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bms-demo-test6/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
->>>>>>> Stashed changes
+        <state relative-caret-position="75">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-config/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-        <state relative-caret-position="90">
-          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
-=======
-        <state relative-caret-position="255">
-          <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-          </folding>
->>>>>>> Stashed changes
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bms-demo-config/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>bms-demo-test4</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
