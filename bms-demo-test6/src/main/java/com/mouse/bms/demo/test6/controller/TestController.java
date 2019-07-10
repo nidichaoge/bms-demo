@@ -25,12 +25,12 @@ public class TestController {
     private Environment environment;
 
     @GetMapping("/from")
-    public String from(){
+    public String from() {
         return this.from;
     }
 
     @GetMapping("/from2")
-    public String from2(){
+    public String from2() {
         return environment.getProperty("from");
     }
 
