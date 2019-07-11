@@ -18,3 +18,5 @@
 > config配置中心 config server
 ###### bms-demo-test6
 > config client 
+###### bms-demo-test7
+> bus rabbitmq

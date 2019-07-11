@@ -1,6 +1,5 @@
 package com.mouse.bms.demo.test7.rabbit;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -19,8 +18,9 @@ public class RabbitController {
     private RabbitSender rabbitSender;
 
     @GetMapping("/send")
-    public String send() throws JsonProcessingException {
+    public String send() {
         rabbitSender.send();
         return "ok";
     }
+
 }
