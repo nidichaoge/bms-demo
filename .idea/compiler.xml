@@ -11,6 +11,7 @@
         <module name="bms-demo-test3" />
         <module name="bms-demo-test2" />
         <module name="bms-demo-config" />
+        <module name="bms-demo-test7" />
         <module name="bms-demo-zuul" />
         <module name="bms-demo-test" />
         <module name="bms-demo-eureka" />
@@ -27,6 +28,7 @@
       <module name="bms-demo-test4" target="1.8" />
       <module name="bms-demo-test5" target="1.8" />
       <module name="bms-demo-test6" target="1.8" />
+      <module name="bms-demo-test7" target="1.8" />
       <module name="bms-demo-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -40,6 +42,7 @@
       <module name="bms-demo-test4" options="-parameters" />
       <module name="bms-demo-test5" options="-parameters" />
       <module name="bms-demo-test6" options="-parameters" />
+      <module name="bms-demo-test7" options="-parameters" />
       <module name="bms-demo-zuul" options="-parameters" />
     </option>
   </component>
