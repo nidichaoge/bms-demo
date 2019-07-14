@@ -20,3 +20,5 @@
 > config client 
 ###### bms-demo-test7
 > bus rabbitmq
+###### bms-demo-test8
+> 链路跟踪 sleuth

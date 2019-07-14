@@ -5,6 +5,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
+
 /**
  * @author mouse
  * @version 1.0
@@ -17,8 +19,8 @@ public class HelloController {
     private static final Logger LOGGER = LoggerFactory.getLogger(HelloController.class);
 
     @GetMapping("/hello")
-    public String hello() {
-        LOGGER.info("hello function");
+    public String hello(HttpServletRequest request) {
+        LOGGER.info("hello function,traceId:{},spanId:{}.", request.getHeader("X-B3-TraceId"), request.getHeader("X-B3-SpanId"));
         return "hello";
     }
 
