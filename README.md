@@ -33,3 +33,8 @@
 - config的加密解密，下载oracle的jar包
 - config无法获取新的数据
 - zipkin通过mq收集,zipkin数据持久化mysql
+
+###### bms-demo-admin
+> admin监控中心 admin server, eureka client, security, mail
+###### bms-demo-test9
+> admin client, eureka client, actuator
