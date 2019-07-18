@@ -1,5 +1,7 @@
 package com.mouse.bms.demo.testa.service;
 
+import com.mouse.bms.demo.testa.dataobject.TestRoleDO;
+import com.mouse.bms.demo.testa.dataobject.TestUserDO;
 import com.mouse.bms.demo.testa.dataobject.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -13,6 +15,7 @@ import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
+import java.util.stream.Collectors;
 
 /**
  * @author mouse
@@ -35,15 +38,27 @@ public class TestDetailServiceImpl implements UserDetailsService {
      * @return
      * @throws UsernameNotFoundException
      */
+//    @Override
+//    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+//        User user = userService.findUserByUsername(username);
+//        if (Objects.isNull(user)) {
+//            throw new UsernameNotFoundException("username can not found.");
+//        }
+//        List<GrantedAuthority> authorities = new ArrayList<>();
+//        authorities.add(new SimpleGrantedAuthority("ROLE_" + user.getRole()));
+//        return new org.springframework.security.core.userdetails.User(user.getUsername(), passwordEncoder.encode(user.getPassword()), authorities);
+//    }
+
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        User user = userService.findByUsername(username);
-        if (Objects.isNull(user)) {
+        TestUserDO byUsername = userService.findByUsername(username);
+
+        if (Objects.isNull(byUsername)) {
             throw new UsernameNotFoundException("username can not found.");
         }
-        List<GrantedAuthority> authorities = new ArrayList<>();
-        authorities.add(new SimpleGrantedAuthority("ROLE_" + user.getRole()));
-        return new org.springframework.security.core.userdetails.User(user.getUsername(), passwordEncoder.encode(user.getPassword()), authorities);
+        List<TestRoleDO> byRoleIds = userService.findByRoleIds(byUsername.getId());
+        List<SimpleGrantedAuthority> authorities = byRoleIds.stream().map(byRoleId -> new SimpleGrantedAuthority("ROLE_" + byRoleId.getRole())).collect(Collectors.toList());
+        return new org.springframework.security.core.userdetails.User(byUsername.getUsername(), passwordEncoder.encode(byUsername.getPassword()), authorities);
     }
 
 }

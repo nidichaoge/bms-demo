@@ -1,5 +1,6 @@
 package com.mouse.bms.demo.testa;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -11,7 +12,8 @@ import java.time.Duration;
 import java.time.Instant;
 
 @EnableWebSecurity
-@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
+@SpringBootApplication
+@MapperScan("com.mouse.bms.demo.testa.dao")
 public class BmsDemoTestaApplication {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(BmsDemoTestaApplication.class);

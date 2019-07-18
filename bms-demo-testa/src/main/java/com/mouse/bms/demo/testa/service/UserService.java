@@ -1,6 +1,10 @@
 package com.mouse.bms.demo.testa.service;
 
+import com.mouse.bms.demo.testa.dataobject.TestRoleDO;
+import com.mouse.bms.demo.testa.dataobject.TestUserDO;
 import com.mouse.bms.demo.testa.dataobject.User;
+
+import java.util.List;
 
 /**
  * @author mouse
@@ -10,6 +14,10 @@ import com.mouse.bms.demo.testa.dataobject.User;
  */
 public interface UserService {
 
-    User findByUsername(String username);
+    User findUserByUsername(String username);
+
+    TestUserDO findByUsername(String username);
+
+    List<TestRoleDO> findByRoleIds(Long userId);
 
 }
