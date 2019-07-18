@@ -1,9 +1,9 @@
 # bms-demo
 ## 《spring cloud微服务实战 翟永超》
 > springcloud工程架构搭建
-###### bms-demo-eureka
+###### bms-demo-eureka 注册中心
 > eureka注册中心 eureka server, security
-###### bms-demo-test
+###### bms-demo-test 
 > 提供服务 eureka client, sleuth, logstash, zipkin
 ###### bms-demo-test2
 > 消费服务 eureka client, ribbon, hystrix, hystrix dashboard, actuator
@@ -34,7 +34,9 @@
 - config无法获取新的数据
 - zipkin通过mq收集,zipkin数据持久化mysql
 
-###### bms-demo-admin
+###### bms-demo-admin 监控中心
 > admin监控中心 admin server, eureka client, security, mail
 ###### bms-demo-test9
 > admin client, eureka client, actuator
+###### bms-demo-testa
+> security
