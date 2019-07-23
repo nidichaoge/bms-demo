@@ -19,4 +19,5 @@ public interface TestUserRoleDAO {
     @Select("select * from test_user_role where user_id = #{userId};")
     @Results({@Result(property = "userId",column = "user_id"),@Result(property = "roleId",column = "role_id")})
     List<TestUserRoleDO> findByUserId(@Param("userId") Long userId);
+
 }

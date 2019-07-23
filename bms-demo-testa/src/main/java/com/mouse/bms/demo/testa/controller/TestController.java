@@ -20,6 +20,21 @@ public class TestController {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(TestController.class);
 
+    // mouse 动态实现权限控制
+    @GetMapping("/user")
+    public String access(String name) {
+        LOGGER.info("动态实现权限控制");
+        return "hello " + name;
+    }
+
+    @GetMapping("/users")
+    public String accessF(String name) {
+        LOGGER.info("动态实现权限控制反例");
+        return "hello " + name;
+    }
+
+    //----------------------------------------------------------------------------------------------------------------//
+
     //role
     @PreAuthorize("hasRole('user')")
     @GetMapping("/test")

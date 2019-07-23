@@ -14,4 +14,5 @@ public interface TestUserDAO {
 
     @Select("select * from test_user where username = #{username} and status = 0 limit 1;")
     TestUserDO findByUsername(@Param("username") String username);
+
 }

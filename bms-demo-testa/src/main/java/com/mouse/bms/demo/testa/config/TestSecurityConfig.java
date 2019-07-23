@@ -1,8 +1,12 @@
 package com.mouse.bms.demo.testa.config;
 
+import com.mouse.bms.demo.testa.permission.MyAccessDecisionManager;
+import com.mouse.bms.demo.testa.permission.MyInvocationSecurityMetadataSourceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.access.AccessDecisionManager;
+import org.springframework.security.config.annotation.ObjectPostProcessor;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.authentication.configuration.EnableGlobalAuthentication;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
@@ -11,6 +15,9 @@ import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.NoOpPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.web.access.intercept.FilterInvocationSecurityMetadataSource;
+import org.springframework.security.web.access.intercept.FilterSecurityInterceptor;
 
 /**
  * @author mouse
@@ -37,6 +44,74 @@ public class TestSecurityConfig extends WebSecurityConfigurerAdapter {
 //                .formLogin().loginPage("/login").permitAll()
 //                .and()
 //                .logout().permitAll();
+//    }
+
+    //==================================基于内存的方式,BCryptPasswordEncoder============================================//
+
+    /**
+     * 自定义AccessDecisionManager
+     *
+     * @param http
+     * @throws Exception
+     */
+    @Override
+    protected void configure(HttpSecurity http) throws Exception {
+        http.authorizeRequests() // 定义哪些URL需要被保护、哪些不需要被保护
+                .antMatchers("/login").permitAll()// 设置所有人都可以访问登录页面
+                .antMatchers("/", "/index").permitAll()
+                .antMatchers("/test/**", "/test1/**").permitAll()
+                .antMatchers("/res/**/*.{js,html}").permitAll()
+                .withObjectPostProcessor(new MyObjectPostProcessor())
+                .anyRequest().authenticated()  // 任何请求,登录后可以访问
+                .and()
+                .formLogin().loginPage("/login").permitAll()
+                .and()
+                .logout().permitAll();
+
+    }
+
+    @Bean
+    public FilterInvocationSecurityMetadataSource filterInvocationSecurityMetadataSource() {
+        return new MyInvocationSecurityMetadataSourceService();
+    }
+
+    @Bean
+    public AccessDecisionManager accessDecisionManager() {
+        return new MyAccessDecisionManager();
+    }
+
+    private class MyObjectPostProcessor implements ObjectPostProcessor<FilterSecurityInterceptor> {
+
+        @Override
+        public <O extends FilterSecurityInterceptor> O postProcess(O o) {
+            o.setSecurityMetadataSource(filterInvocationSecurityMetadataSource());
+            o.setAccessDecisionManager(accessDecisionManager());
+            return o;
+        }
+    }
+
+    //==================================基于内存的方式,BCryptPasswordEncoder============================================//
+
+    /**
+     * 扩展access()表达式
+     *
+     * @param http
+     * @throws Exception
+     */
+//    @Override
+//    protected void configure(HttpSecurity http) throws Exception {
+//        http.authorizeRequests() // 定义哪些URL需要被保护、哪些不需要被保护
+//                .antMatchers("/login").permitAll()// 设置所有人都可以访问登录页面
+//                .antMatchers("/", "/index").permitAll()
+//                .antMatchers("/test/**", "/test1/**").permitAll()
+//                .antMatchers("/res/**/*.{js,html}").permitAll()
+//                .anyRequest().access("@authService.canAccess(request,authentication)")
+//                //.anyRequest().authenticated()  // 任何请求,登录后可以访问
+//                .and()
+//                .formLogin().loginPage("/login").permitAll()
+//                .and()
+//                .logout().permitAll();
+//
 //    }
 
     //==================================基于内存的方式,BCryptPasswordEncoder============================================//
